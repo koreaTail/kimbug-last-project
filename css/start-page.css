@@ -1,0 +1,107 @@
+.start-page {
+  background-color: #fdded8;
+}
+
+.start-page__flex {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-page h1 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.start-page p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.375;
+  letter-spacing: -0.01em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.start-page__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.start-page__apply-button,
+.start-page__learn-button {
+  font-family: "DM Sans", sans-serif;
+  width: 140px;
+  height: 48px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: -0.05em;
+  text-decoration: none;
+}
+
+.start-page__apply-button {
+  background-color: #3040c4;
+  color: white;
+  margin-right: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.start-page__apply-button:hover {
+  opacity: 0.6;
+  color: wheat;
+}
+
+.start-page__learn-button {
+  background-color: white;
+  color: #3040c4;
+  transition: all 0.2s ease-in-out;
+}
+
+.start-page__learn-button:hover {
+  opacity: 0.6;
+  color: black;
+}
+
+@media screen and (min-width: 768px) {
+  .start-page__flex {
+    height: 568px;
+  }
+
+  .start-page h1 {
+    font-size: 70px;
+    line-height: 1.028;
+    margin-bottom: 32px;
+  }
+
+  .start-page p {
+    font-size: 22px;
+    line-height: 1.45;
+    margin-bottom: 32px;
+  }
+
+  .start-page__apply-button,
+  .start-page__learn-button {
+    width: 160px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 1.55555555;
+  }
+
+  .start-page__apply-button {
+    margin-right: 16px;
+  }
+}

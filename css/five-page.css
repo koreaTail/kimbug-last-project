@@ -1,0 +1,180 @@
+.five-page {
+  padding-top: 40px;
+  background-color: #f2f8fa;
+}
+
+.five-page__image {
+  width: 100%;
+  padding: 25px 0;
+  margin-bottom: 16px;
+}
+
+.five-page img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: auto;
+  height: 190px;
+  margin-bottom: 16px;
+}
+
+.five-page h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.five-page p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+input {
+  border-style: none;
+  width: 100%;
+  height: 48px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  padding: 12px 0px 12px 16px;
+}
+
+input:first-child::placeholder {
+  color: #7b7b7e;
+}
+
+input:nth-child(2) {
+  background-color: #3040c4;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: -0.05em;
+  padding: 12px 0px;
+  margin-bottom: 0px;
+}
+
+.five-page span {
+  color: #7b7b7e;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.53846;
+}
+
+.five-page span a {
+  color: #3040c4;
+}
+
+footer {
+  color: #807f81;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7142857;
+  letter-spacing: -0.01em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #807f81;
+  display: block;
+}
+
+footer .term {
+  margin-top: 24px;
+}
+
+footer .Privacy {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+footer .License {
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .five-page img {
+    margin-left: 0;
+    margin-top: 0;
+    height: 285px;
+    margin-bottom: 0px;
+  }
+
+  .five-page {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .stay-with-us__display {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .five-page h1 {
+    font-size: 40px;
+    text-align: left;
+  }
+
+  .five-page p {
+    font-size: 22px;
+    line-height: 1.454545454545455;
+    text-align: left;
+  }
+
+  form {
+    margin-bottom: 0px;
+  }
+
+  .form-flex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .form-flex input {
+    height: 56px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    font-size: 18px;
+    line-height: 1.333333333333333;
+    padding: 16px;
+
+    margin-bottom: 0;
+  }
+
+  .form-flex input:last-child {
+    min-width: auto;
+    width: 160px;
+    flex-shrink: 0;
+    margin-right: 0;
+  }
+
+  .footer {
+    display: flex;
+  }
+
+  .footer a {
+    margin: 16px;
+    margin-left: 0px;
+  }
+}

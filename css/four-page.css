@@ -1,0 +1,110 @@
+@media screen and (max-width: 767px) {
+  .curriculum-img {
+    display: none;
+  }
+}
+
+.four-page {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.four-page__flex {
+  margin-bottom: 48px;
+}
+
+.four-page__flex span {
+  display: inline-block;
+  color: #0189d1;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
+}
+
+.four-page__flex h1 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.058823;
+  letter-spacing: -0.03em;
+  margin-bottom: 24px;
+}
+
+.four-page__flex p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  margin-bottom: 32px;
+}
+
+.four-page__buttons {
+  justify-content: left;
+}
+
+.four-page__img-box {
+  margin-bottom: 24px;
+}
+
+.curriculum-img {
+  margin: 12px;
+  width: 425px;
+  height: 425px;
+  object-fit: contain;
+}
+
+.four-page p strong {
+  font-weight: 700;
+}
+
+.real-world__sentence {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.46666666667;
+  letter-spacing: -0.01em;
+  margin-bottom: 40px;
+}
+
+.real-world__sentence.big-screen-margin-zero {
+  margin-bottom: 0px;
+}
+
+.start-page__buttons .display-no {
+  opacity: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .four-page {
+    margin-bottom: 96px;
+    padding-bottom: 0;
+  }
+
+  .four-page__flex {
+    margin-bottom: 24px;
+  }
+
+  .fout-page__flex span {
+    font-size: 22px;
+    line-height: 1.090909090909091;
+    margin-bottom: 16px;
+  }
+
+  .four-page h1 {
+    font-size: 56px;
+    line-height: 1;
+    margin-bottom: 32px;
+  }
+
+  .four-page__flex p {
+    font-size: 22px;
+    line-height: 1.454545454545455;
+    margin-bottom: 72px;
+  }
+
+  .real-world__sentence {
+    font-size: 18px;
+    line-height: 1.444444444444444;
+    margin-bottom: 0px;
+  }
+}
